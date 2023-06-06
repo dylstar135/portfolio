@@ -4,5 +4,34 @@
     <title>Contact Page</title>
   </head>  
 <header>
-    <h1> Contact Details</h1>
+    <h1> Contact Me</h1>
 </header>
+<p> Feel free to contact me and ask any questions you want </p>
+<form>
+  <fieldset>
+    <legend>Personal Details</legend>
+    <label for ="firstname"> First Name</label>
+    <input id ="firstname" type="text">
+    <br>
+     <label for="Last Name">Last Name</label>
+    <input id="Last Name" type="text">
+    <br>
+    <label for="Email Address" > Email Address</label>
+    <input id ="Email Address" type="email">
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend> Reason for getting in touch</legend>
+    <select name = "Reason">
+      <option value = "WildCamping">WildCamping</option>
+      <option value = "coding">Help with code</option>
+      <option value="money">I owe you money</option>
+    </select>
+  </fieldset> 
+  <br>
+  <fieldset>
+    <legend>Any other comments</legend>
+    <label for="notes">Any further comments</label>
+    <textarea id="notes"></textarea>
+  </fieldset>
+</form>
